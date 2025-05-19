@@ -1,0 +1,11 @@
+prefix=/media/vaibhav-singh/OS/Users/vaibhav/vscode/mlops/dsproject/dsproject
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/media/vaibhav-singh/OS/Users/vaibhav/vscode/mlops/dsproject/dsproject/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
