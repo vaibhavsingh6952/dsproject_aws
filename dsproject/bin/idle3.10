@@ -1,5 +1,0 @@
-#!/media/vaibhav-singh/OS/Users/vaibhav/vscode/mlops/dsproject/dsproject/bin/python3.10
-
-from idlelib.pyshell import main
-if __name__ == '__main__':
-    main()
